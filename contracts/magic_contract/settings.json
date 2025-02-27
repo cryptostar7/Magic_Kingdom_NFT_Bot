@@ -1,0 +1,63 @@
+{
+	"remappings": [
+		"solady/=lib/solady/",
+		"solemate/=/lib/solemate/src/",
+		"@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+		"@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+		"forge-std/=lib/forge-std/src/",
+		"erc721a/contracts/=lib/ERC721A/contracts/",
+		"erc721a-upgradeable/contracts/=lib/ERC721A-Upgradeable/contracts/",
+		"@limitbreak/creator-token-standards/src/=lib/creator-token-standards/src/",
+		"@ensdomains/=node_modules/@ensdomains/",
+		"@layerzerolabs/=node_modules/@layerzerolabs/",
+		"@limitbreak/=node_modules/@limitbreak/",
+		"@opensea/tstorish/=lib/creator-token-standards/lib/tstorish/src/",
+		"@openzeppelin-3/=node_modules/@openzeppelin-3/",
+		"@openzeppelin/=node_modules/@openzeppelin/",
+		"@rari-capital/solmate/=lib/creator-token-standards/lib/PermitC/lib/solmate/",
+		"@uniswap/=node_modules/@uniswap/",
+		"ERC721A-Upgradeable/=lib/ERC721A-Upgradeable/contracts/",
+		"ERC721A/=lib/ERC721A/contracts/",
+		"PermitC/=lib/creator-token-standards/lib/PermitC/",
+		"creator-token-standards/=lib/creator-token-standards/",
+		"ds-test/=lib/solmate/lib/ds-test/src/",
+		"erc4626-tests/=lib/operator-filter-registry/lib/openzeppelin-contracts/lib/erc4626-tests/",
+		"erc721a-upgradeable/=node_modules/erc721a-upgradeable/",
+		"erc721a/=node_modules/erc721a/",
+		"eth-gas-reporter/=node_modules/eth-gas-reporter/",
+		"forge-gas-metering/=lib/creator-token-standards/lib/PermitC/lib/forge-gas-metering/",
+		"hardhat-deploy/=node_modules/hardhat-deploy/",
+		"hardhat/=node_modules/hardhat/",
+		"murky/=lib/creator-token-standards/lib/murky/",
+		"openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+		"openzeppelin-contracts/=lib/openzeppelin-contracts/",
+		"openzeppelin/=lib/creator-token-standards/lib/PermitC/lib/openzeppelin-contracts/contracts/",
+		"operator-filter-registry/=lib/operator-filter-registry/",
+		"solmate/=lib/solmate/src/",
+		"tstorish/=lib/creator-token-standards/lib/tstorish/src/"
+	],
+	"optimizer": {
+		"enabled": true,
+		"runs": 777
+	},
+	"metadata": {
+		"useLiteralContent": false,
+		"bytecodeHash": "ipfs",
+		"appendCBOR": true
+	},
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"devdoc",
+				"userdoc",
+				"metadata",
+				"abi"
+			]
+		}
+	},
+	"evmVersion": "shanghai",
+	"viaIR": true,
+	"libraries": {}
+}
